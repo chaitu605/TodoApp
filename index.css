@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#main {
+  height: 100%;
+  background-color: #111;
+  font-family: sans-serif;
+  font-style: italic;
+}
+
+h1 {
+  text-align: center;
+  font-size: 50px;
+  margin: 40px;
+  color: #fff;
+  text-decoration: underline red;
+}
+
+.title {
+  color: lime;
+  font-weight: 900;
+}
+
+.input_container {
+  /*background-color: red; test*/
+  position: absolute;
+  width: 50%;
+  top: 25%;
+  left: 25%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+  font-size: 25px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+}
+
+.addButton {
+  font-size: 20px;
+  width: 10%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: lime;
+  color: #fff;
+}
+
+.addButton:hover {
+  opacity: 0.8;
+}
+
+.data_container {
+  /*background-color: springgreen; test*/
+  position: absolute;
+  top: 35%;
+  left: 25%;
+  width: 50%;
+  padding: 10px;
+}
+
+.item {
+  /*background-color: blue; test*/
+  display: flex;
+  flex-direction: row;
+}
+
+.item_input {
+  width: 100%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  font-size: 25px;
+  outline: none;
+}
+
+.editButton {
+  font-size: 20px;
+  width: 10%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: lime;
+  color: #fff;
+}
+
+.editButton:hover {
+  opacity: 0.8;
+}
+
+.removeButton {
+  font-size: 20px;
+  width: 20%;
+  margin: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  background-color: red;
+  color: #fff;
+}
+
+.removeButton:hover {
+  opacity: 0.8;
+}
